@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="imc_color_component">#164B60</color>
+    <color name="imc_color_component_selected">#1B6B93</color>
+    <color name="imc_color_accent">#4FC0D0</color>
+    <color name="imc_titles">#A2FF86</color>
+
+    <!-- Categorías de IMC -->
+    <color name="category_peso_bajo">#FFC542</color>
+    <color name="category_peso_normal">#43D049</color>
+    <color name="category_peso_sobrepeso">#FF6B42</color>
+    <color name="category_obesidad">#FF3D54</color>
+
+    <!-- Otros Elementos -->
+    <color name="imc_fab_color">#FF5E80</color>
+</resources>
