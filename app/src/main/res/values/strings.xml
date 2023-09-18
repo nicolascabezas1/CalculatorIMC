@@ -6,4 +6,15 @@
     <string name="weight">Weight</string>
     <string name="age">Age</string>
     <string name="calculate_imc">Calculate IMC</string>
+    <string name="your_result">Your Result</string>
+    <string name="re_calculate">RE-CALCULATE</string>
+    <string name="error">Error</string>
+    <string name="title_low_weight">Low Weight</string>
+    <string name="description_low_weight">You are below the optimal weight</string>
+    <string name="title_normal_weight">Normal Weight</string>
+    <string name="description_normal_weight">You are at your optimal weight</string>
+    <string name="title_more_weight">Overweight</string>
+    <string name="description_more_weight">You are above your optimal weight</string>
+    <string name="title_hig_weight">Obesity</string>
+    <string name="description_hig_weight">You need to lose weight</string>
 </resources>

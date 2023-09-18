@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         const val IMC_KEY = "IMC_RESULT"
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -63,7 +64,8 @@ class MainActivity : AppCompatActivity() {
             setCardViewUnselected(cardViewMale)
         }
         rangeSliderHeight.addOnChangeListener { _, value, _ ->
-            val currentHeight = decimalFormat.format(value).toInt()
+            val df = DecimalFormat("#.##")
+            currentHeight = df.format(value).toInt()
             textViewHeight.text = "$currentHeight cm"
         }
         buttonRemoveWeight.setOnClickListener {
@@ -126,5 +128,4 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("IMC_RESULT", imc)
         startActivity(intent)
     }
-
 }
